@@ -1,0 +1,68 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+    background-image: url(assets/images/app.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    opacity: 85%;
+	margin: 50px auto;
+	max-width: 500px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	color: #666;
+}
+
+form input, form select, form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+form textarea {
+	height: 100px;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+	background-color: #555;
+}
+
+.submit_btn {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.submit_btn {
+	background-color: #555;
+}
